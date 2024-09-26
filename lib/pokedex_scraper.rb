@@ -6,7 +6,7 @@ require_relative 'pokemon'
 
 module PokedexScraper
   BASE_URL = 'https://www.pokemon.com/el/pokedex/'.freeze
-  SCRAPE_DO_TOKEN = '93dd91d7fdad434c9369547a259accdf71b777ad1c7'
+  SCRAPE_DO_TOKEN = 'your_api_key'
 
   class ScraperError < StandardError; end
 
